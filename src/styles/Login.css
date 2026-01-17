@@ -1,0 +1,92 @@
+/* Full Page Centering */
+.login-page {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  font-family: "Segoe UI", system-ui, sans-serif;
+}
+
+/* Login Card */
+.login-box {
+  width: 360px;
+  padding: 40px 30px;
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(14px);
+  border-radius: 18px;
+  box-shadow: 0 25px 45px rgba(0, 0, 0, 0.25);
+  text-align: center;
+}
+
+/* Title */
+.app-title {
+  font-size: 42px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  color: #ffffff;
+  margin-bottom: 6px;
+}
+
+/* Subtitle */
+.app-subtitle {
+  font-size: 14px;
+  color: #e5e5e5;
+  margin-bottom: 30px;
+}
+
+/* Form Wrapper */
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+/* Ensure padding does not overflow width */
+.login-form input {
+  box-sizing: border-box;
+}
+
+/* Inner wrapper for spacing */
+.form-inner {
+  padding: 0 4px;   /* safe spacing from card border */
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+
+/* Inputs */
+.login-form input {
+  width: 100%;
+  padding: 12px 14px;
+  font-size: 14px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+}
+
+/* Button */
+.login-form button {
+  margin-top: 10px;
+  padding: 12px;
+  font-size: 15px;
+  font-weight: 600;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.login-form button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.25);
+}
+
+/* Footer Text */
+.login-footer {
+  margin-top: 22px;
+  font-size: 12px;
+  color: #dddddd;
+}

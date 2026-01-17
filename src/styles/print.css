@@ -1,0 +1,24 @@
+@media print {
+  body, html, #root {
+    background: #fff !important;
+    color: #000 !important;
+  }
+  .dashboard-header, .controls, .add-btn, .logout-btn, .modal-overlay, .actions button:not(:last-child) {
+    display: none !important;
+  }
+  .table-wrapper {
+    box-shadow: none !important;
+    background: #fff !important;
+    padding: 0 !important;
+  }
+  table {
+    font-size: 1rem;
+    color: #000;
+    background: #fff;
+  }
+  .status.active, .status.inactive {
+    color: #000 !important;
+    background: none !important;
+    border: none !important;
+  }
+}
